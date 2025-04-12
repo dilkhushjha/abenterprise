@@ -146,7 +146,7 @@ document.addEventListener("DOMContentLoaded", function () {
                 const element = entry.target;
                 const countTo = parseInt(element.innerText);
                 let count = 0;
-                const duration = 25000; // 2 seconds (corrected from 20000)
+                const duration = 15000; // 2 seconds (corrected from 20000)
                 const interval = 10; // Update every 10ms
                 const steps = duration / interval;
                 const increment = countTo / steps;
