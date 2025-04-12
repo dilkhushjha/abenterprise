@@ -1,121 +1,164 @@
-<nav class="navbar navbar-expand-lg navbar-light fixed-top transition-navbar shadow">
-    <div class="container">
-        <a id="logo" class="navbar-brand" href="/index.html">
-            <!-- <span class="fw-bold fs-3 bg-white  px-1 bordered-text" id="ab">AB</span><span
-                class="fw-bold fs-3 px-2  bg-primary-red text-white font-italic"
-                style="font-style: italic;">Enterprise</span> -->
-            <img id="" src="./images/logo-tp.png" alt="" style="width: 180px;" class="py-2">
-            <span class=" position-absolute top-0 fs-6 mt-3 fw-bold text-primary-red">®</span>
-        </a>
+<style>
+    @media (max-width: 991.98px) {
+        .navbar-collapse {
+            position: fixed;
+            top: 0;
+            right: -100%;
+            width: 80%;
+            height: 100vh;
+            z-index: 1050;
+            background-color: white;
+            transition: all 0.3s ease;
+            display: flex;
+            flex-direction: column;
+            overflow-y: auto;
+            padding: 1rem;
+
+        }
+
+        .navbar-collapse.show {
+            right: 0;
+        }
+
+        .navbar-nav {
+            margin-top: 2rem;
+            width: 100%;
+        }
+
+        .navbar-toggler {
+            z-index: 1060;
+        }
+
+        .nav-close-btn {
+            position: absolute;
+            right: 20px;
+            top: 20px;
+            background: none;
+            border: none;
+            font-size: 1.5rem;
+            cursor: pointer;
+        }
+
+        /* Adjust dropdown menus for mobile */
+        .dropdown-menu {
+            border: none;
+            background-color: #f8f9fa;
+            padding-left: 1.5rem;
+            box-shadow: none;
+        }
+
+        /* Logo container for mobile menu */
+        .mobile-logo-container {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            padding: 1rem 0;
+            border-bottom: 1px solid #eee;
+        }
+    }
+</style>
+
+<!-- HTML for the navbar -->
+<nav class="navbar navbar-expand-lg navbar-light fixed-top shadow-lg">
+    <div class="container border-0">
+        <div id="logo-container">
+
+            <a class="navbar-brand" href="/index.html">
+                <img src="./images/logo-tp.png" alt="Logo" style="width: 180px;" class="py-2">
+                <span class="position-absolute top-0 fs-6 mt-3 fw-bold text-primary-red">®</span>
+            </a>
+        </div>
         <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
             <span class="navbar-toggler-icon"></span>
         </button>
         <div class="collapse navbar-collapse" id="navbarNav">
-            <ul class="navbar-nav ms-auto d-flex gap-3 fw-semibold  gap-5">
-                <div class="d-flex  gap-4">
-
-                    <li class="nav-item dropdown">
-                        <a class="nav-link dropdown-toggle" href="#" id="productsDropdown" role="button"
-                            data-bs-toggle="dropdown" aria-expanded="false">
-                            Company
-                        </a>
-                        <ul class="dropdown-menu" aria-labelledby="productsDropdown">
-                            <li><a class="dropdown-item" href="./about.html">About Us</a></li>
-                            <li><a class="dropdown-item" href="">Clientale</a></li>
-                            <li><a class="dropdown-item" href="#product-1">Our Subsidiaries</a></li>
-
-
-                        </ul>
-                    </li>
-
-
-                    <li class="nav-item dropdown">
-                        <a class="nav-link dropdown-toggle" href="#" id="cementDropdown" role="button"
-                            data-bs-toggle="dropdown" aria-expanded="false">
-                            Cement
-                        </a>
-                        <ul class="dropdown-menu" aria-labelledby="cementDropdown">
-                            <li><a class="dropdown-item" href="javascript:void(0)"
-                                    onclick="navigateToProduct('cement-plant-spares')">Cement Plant Spares</a></li>
-                            <li><a class="dropdown-item" href="javascript:void(0)"
-                                    onclick="navigateToProduct('vertical-mill')">Vertical Mill</a></li>
-                            <li><a class="dropdown-item" href="javascript:void(0)"
-                                    onclick="navigateToProduct('rotary-kiln')">Rotary Kiln</a></li>
-                            <li><a class="dropdown-item" href="javascript:void(0)"
-                                    onclick="navigateToProduct('clinker-cooler')">Clinker Cooler</a></li>
-                            <li><a class="dropdown-item" href="javascript:void(0)"
-                                    onclick="navigateToProduct('packing-plant')">Packing Plant</a></li>
-                            <li><a class="dropdown-item" href="javascript:void(0)"
-                                    onclick="navigateToProduct('coal-cement-feeder')">Coal and Cement Feeder</a></li>
-                        </ul>
-                    </li>
-
-
-
-                    <li class="nav-item dropdown">
-                        <a class="nav-link dropdown-toggle" href="./product.html" id="productsDropdown" role="button"
-                            data-bs-toggle="dropdown" aria-expanded="false">
-                            Products
-                        </a>
-                        <ul class="dropdown-menu" aria-labelledby="productsDropdown">
-                            <li><a class="dropdown-item " href="javascript:void(0)"
-                                    onclick="navigateToProduct('industry-supply')">Industry Supply</a></li>
-                            <li><a class="dropdown-item" href="javascript:void(0)"
-                                    onclick="navigateToProduct('material-handling')">Material Handling</a></li>
-                            <li><a class="dropdown-item route-link" href="javascript:void(0)"
-                                    onclick="navigateToProduct('motors-gears')">Gearboxes & Motors</a></li>
-                            <li><a class="dropdown-item route-link" href="javascript:void(0)"
-                                    onclick="navigateToProduct('pumps-valves')">Pumps & Valves</a></li>
-                            <li><a class="dropdown-item route-link" href="javascript:void(0)"
-                                    onclick="navigateToProduct('compressors-blowers')">Compressors & Blowers</a></li>
-                            <li><a class="dropdown-item route-link" href="javascript:void(0)"
-                                    onclick="navigateToProduct('hydraulics-pneumatics')">Hydraulics & Pneumatics</a>
-                            </li>
-                            <li><a class="dropdown-item route-link" href="javascript:void(0)"
-                                    onclick="navigateToProduct('electrical-items')">Elelctrical Items</a></li>
-                            <li><a class="dropdown-item route-link" href="javascript:void(0)"
-                                    onclick="navigateToProduct('instrumentation')">Instrumentation</a></li>
-                            <li><a class="dropdown-item route-link" href="javascript:void(0)"
-                                    onclick="navigateToProduct('coupling-seals')">Coupling & Seals</a></li>
-                            <li><a class="dropdown-item route-link" href="javascript:void(0)"
-                                    onclick="navigateToProduct('chain-sprockets')">Chain & Sprockets</a></li>
-
-
-                        </ul>
-                    </li>
-
-
-
-
-                    <li class="nav-item dropdown">
-                        <a class="nav-link dropdown-toggle" href="./industries.html" id="productsDropdown" role="button"
-                            data-bs-toggle="dropdown" aria-expanded="false">
-                            Sectors
-                        </a>
-                        <ul class="dropdown-menu" aria-labelledby="productsDropdown">
-                            <li><a class="dropdown-item" href="/cement-industry">Cement Industry</a></li>
-                            <li><a class="dropdown-item" href="/cement-industry">Power Plants</a></li>
-                            <li><a class="dropdown-item" href="/cement-industry">Gypsum Industry</a></li>
-                            <li><a class="dropdown-item" href="/cement-industry">Oil & Gas Industry</a></li>
-
-                        </ul>
-                    </li>
-
-
-
-
-
-                    <li class="nav-item">
-                        <a class=" nav-link" href="/contact.html">Contact</a>
-
-                    </li>
+            <!-- Mobile only: Close button and logo -->
+            <div class="d-lg-none w-100">
+                <button class="nav-close-btn" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+                    &times;
+                </button>
+                <div class="mobile-logo-container">
+                    <img src="./images/logo-tp.png" alt="Logo" style="width: 150px;">
+                    <span class="position-relative fs-6 fw-bold text-primary-red">®</span>
                 </div>
+            </div>
 
-
+            <ul class="navbar-nav ms-auto d-flex gap-3 fw-semibold">
+                <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle" href="#" id="companyDropdown" role="button"
+                        data-bs-toggle="dropdown" aria-expanded="false">
+                        Company
+                    </a>
+                    <ul class="dropdown-menu" aria-labelledby="companyDropdown">
+                        <li><a class="dropdown-item" href="./about.html">About Us</a></li>
+                        <li><a class="dropdown-item" href="">Clientale</a></li>
+                        <li><a class="dropdown-item" href="#product-1">Our Subsidiaries</a></li>
+                    </ul>
+                </li>
+                <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle" href="#" id="cementDropdown" role="button"
+                        data-bs-toggle="dropdown" aria-expanded="false">
+                        Cement
+                    </a>
+                    <ul class="dropdown-menu" aria-labelledby="cementDropdown">
+                        <li><a class="dropdown-item" href="javascript:void(0)"
+                                onclick="navigateToProduct('cement-plant-spares')">Cement Plant Spares</a></li>
+                        <li><a class="dropdown-item" href="javascript:void(0)"
+                                onclick="navigateToProduct('vertical-mill')">Vertical Mill</a></li>
+                        <li><a class="dropdown-item" href="javascript:void(0)"
+                                onclick="navigateToProduct('rotary-kiln')">Rotary Kiln</a></li>
+                        <li><a class="dropdown-item" href="javascript:void(0)"
+                                onclick="navigateToProduct('clinker-cooler')">Clinker Cooler</a></li>
+                        <li><a class="dropdown-item" href="javascript:void(0)"
+                                onclick="navigateToProduct('packing-plant')">Packing Plant</a></li>
+                        <li><a class="dropdown-item" href="javascript:void(0)"
+                                onclick="navigateToProduct('coal-cement-feeder')">Coal and Cement Feeder</a></li>
+                    </ul>
+                </li>
+                <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle" href="./product.html" id="productsDropdown" role="button"
+                        data-bs-toggle="dropdown" aria-expanded="false">
+                        Products
+                    </a>
+                    <ul class="dropdown-menu" aria-labelledby="productsDropdown">
+                        <li><a class="dropdown-item" href="javascript:void(0)"
+                                onclick="navigateToProduct('industry-supply')">Industry Supply</a></li>
+                        <li><a class="dropdown-item" href="javascript:void(0)"
+                                onclick="navigateToProduct('material-handling')">Material Handling</a></li>
+                        <li><a class="dropdown-item" href="javascript:void(0)"
+                                onclick="navigateToProduct('motors-gears')">Gearboxes & Motors</a></li>
+                        <li><a class="dropdown-item" href="javascript:void(0)"
+                                onclick="navigateToProduct('pumps-valves')">Pumps & Valves</a></li>
+                        <li><a class="dropdown-item" href="javascript:void(0)"
+                                onclick="navigateToProduct('compressors-blowers')">Compressors & Blowers</a></li>
+                        <li><a class="dropdown-item" href="javascript:void(0)"
+                                onclick="navigateToProduct('hydraulics-pneumatics')">Hydraulics & Pneumatics</a></li>
+                        <li><a class="dropdown-item" href="javascript:void(0)"
+                                onclick="navigateToProduct('electrical-items')">Elelctrical Items</a></li>
+                        <li><a class="dropdown-item" href="javascript:void(0)"
+                                onclick="navigateToProduct('instrumentation')">Instrumentation</a></li>
+                        <li><a class="dropdown-item" href="javascript:void(0)"
+                                onclick="navigateToProduct('coupling-seals')">Coupling & Seals</a></li>
+                        <li><a class="dropdown-item" href="javascript:void(0)"
+                                onclick="navigateToProduct('chain-sprockets')">Chain & Sprockets</a></li>
+                    </ul>
+                </li>
+                <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle" href="./industries.html" id="sectorsDropdown" role="button"
+                        data-bs-toggle="dropdown" aria-expanded="false">
+                        Sectors
+                    </a>
+                    <ul class="dropdown-menu" aria-labelledby="sectorsDropdown">
+                        <li><a class="dropdown-item" href="/cement-industry">Cement Industry</a></li>
+                        <li><a class="dropdown-item" href="/cement-industry">Power Plants</a></li>
+                        <li><a class="dropdown-item" href="/cement-industry">Gypsum Industry</a></li>
+                        <li><a class="dropdown-item" href="/cement-industry">Oil & Gas Industry</a></li>
+                    </ul>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="/contact.html">Contact</a>
+                </li>
             </ul>
-
-
-
         </div>
     </div>
 </nav>

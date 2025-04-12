@@ -81,12 +81,15 @@ body {
 
 /* Navigation */
 .navbar {
-    background-color: #fff !important;
+    /* background: linear-gradient(to bottom, rgb(255, 255, 255) 0%, rgba(255, 255, 255, 0) 100%); */
+    background: #fff;
     padding: 1rem 0;
     transition: 0.2s ease-in-out;
     color: #fff;
     text-transform: uppercase;
     font-size: 14px;
+    border: 0 !important;
+    /* box-shadow: none !important; */
 
 }
 
@@ -184,14 +187,15 @@ body {
 }
 
 .about-hero {
-    background: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.4)), url("https://www.ceo-review.com/wp-content/uploads/2021/01/Manufacturing-Tech.jpg");
+    background: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.4)), url("https://www.ceo-review.com/wp-content/uploads/2021/01/Manufacturing-Tech.jpg");
     background-size: cover;
-    height: 60vh;
+    height: 100vh;
     color: white;
     display: flex;
     align-items: center;
     justify-content: center;
     text-align: center;
+    animation: bgZoom 20s ease-in-out infinite alternate;
 }
 
 

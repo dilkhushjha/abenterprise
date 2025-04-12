@@ -1,10 +1,3 @@
-// Navbar
-
-
-
-// End
-
-
 
 
 document.addEventListener("DOMContentLoaded", function () {
