@@ -16,29 +16,55 @@
         "PACKING PLANT",
         "COAL AND CEMENT FEEDER"
       ],
+      "bg": "",
+      "video": "https://webberindia.com/wp-content/uploads/2024/02/vid_mob_2024.mp4",
       "image": "https://images.pexels.com/photos/5032845/pexels-photo-5032845.jpeg?auto=compress&cs=tinysrgb&w=600",
       "spareImage": "https://images.pexels.com/photos/1058141/pexels-photo-1058141.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=700",
       "spares": [
-        "Kiln Tires",
-        "Riding Rings",
-        "Support Rollers",
-        "Thrust Rollers",
-        "Kiln Shell",
-        "Cooler Plates",
-        "Cooler Grates",
-        "Cooler Support Rollers",
-        "Vertical Mill Rollers",
-        "Vertical Mill Tables",
-        "Vertical Mill Liners",
-        "Roller Press Components",
-        "Grinding Media",
-        "Cement Mill Components",
-        "Separator Parts",
-        "Fan Components",
-        "Valve Components",
-        "Conveyor Components",
-        "Drive Components",
-        "Gearbox Spares"
+        {
+          "category": "Kiln Components",
+          "image": "https://www.prmdrive.com/wp-content/uploads/2019/06/rotary-kiln-%E6%95%B4%E4%BD%93%E5%9B%BE%E7%89%87.jpg",
+          "items": [
+            "Kiln Tires",
+            "Riding Rings",
+            "Support Rollers",
+            "Thrust Rollers",
+            "Kiln Shell"
+          ]
+        },
+        {
+          "category": "Cooler Components",
+          "image": "https://cementplantsupplier.com/wp-content/uploads/2022/06/grate-cooler-3.jpg",
+          "items": [
+            "Cooler Plates",
+            "Cooler Grates",
+            "Cooler Support Rollers"
+          ]
+        },
+        {
+          "category": "Mill Components",
+          "image": "",
+          "items": [
+            "Vertical Mill Rollers",
+            "Vertical Mill Tables",
+            "Vertical Mill Liners",
+            "Roller Press Components",
+            "Grinding Media",
+            "Cement Mill Components",
+            "Separator Parts"
+          ]
+        },
+        {
+          "category": "Auxiliary Components",
+          "image": "",
+          "items": [
+            "Fan Components",
+            "Valve Components",
+            "Conveyor Components",
+            "Drive Components",
+            "Gearbox Spares"
+          ]
+        }
       ]
     },
     "vertical-mill": {
@@ -57,24 +83,50 @@
         "Separator Components",
         "Mill Housing Parts"
       ],
+      "bg": "https://lh3.googleusercontent.com/fife/ALs6j_FjRLwoyeOePi4FNSylxmRR_y3lq4amaoTUvcJAMrar6U7umXvsjiW2zFBbApYMBOeak26RBINwY5Pp85lyH-uGgHlqANYXUn_jDoy0iTbFCz6pStse8r3pPGXX5ThQW7GEMCG-10R_p6U7FrdzPFWOFnCixbyL7ayLKlTQVxz_62IuwMhiWhVIC3tFlVjjmRXi_NFGfyFySQvGc70ooByh7mBB84y7nv-y2lTFq5OgVdLL9aOKvJaPEe6P6g-4s-X6YpHOtuysPzzM1H0bzfsuzEMB9m5vEn0OoMp_MIBbMYy6pH4469zgccvIlH0k-beTDcbMf09m84YorN_9s44QqWinFxQHRX-a0X0gKVQQU8eLLzP2-1PHmFm6F1nMKMu9p4_tptHRaj6EXaL_CPBgIsJZP5ETg4ojGGcpTloZM0_TOLUOy9UGaCbCZ8CKujOt6jeOimIC71Ep9FAPf9OlTyTf0pkPseVMgDFadTGmnig212q1VHLW2z13LWD4ZTiYIZ9ZlJ0FGKlGCraQhqsgBUUqSXRv5nPDvyuFBBfqSSFVijt5VqBzTD_wdPN2YYxZEtds75UQNBLBhg1omAuS1xC1Q7ju-LLaksGL4ERMX4UXaGVikHfXmUN0O7W6DWATTgB1Ia_c0FDdk5vt4VyvZGLr2C7xQnR6z5589tQcXmgI-crdmW6Kg0Fi-BFNDwwO4S-RaGdlzM55j8cy-8VkRX6G-qzBQdomhF9MSmVYNtqgYAbDMuraC7-vThd132hvGehevFEPYxwkCEVDeudy1S7x7dO7azb0M9RSrHvuOyMwyLUTiWx67KYyOzZ_FwXtrBO2Ywd8aS0L1QDeBe4jSC4AXkFdy1cN9oREzlkg5rPSypFLOaTJRKFf5CK3N0BVDo8M2mTMiCHWRkkyL4WSXgx3tcHdliwHaaBvX803Dh2rdbg0TqaFCEAbEte3LPK_uFfr7SzepXjN2D19hq3DpKlVBxDdmkVHaHDhFGe9EP33RHw7KPx9wi2lSz9XNvUKXEXw-Rorfa6LyrNvGb_d1RWwKGmRwK8f2P51tYRBpuya6fSaGLIbBy_hQDp_3MswAiesMbMyH2pT_lvEIIIGRHnjAhYo6-gdg9aaNeTWqDR5V6zoKvG1SqCEXRYIkJJ7iGayJraTaoUYlHrqYCh7meuEymw1Y9Pt6ue50ly9z94MfYvhvrmISQju4IgzHwYCymZArjlN2p-odgKvH0I1OiqQHLJMdU1i6kufgMjZb1Q-WZwZlikqCnFuLlTFLsZt4gZRYpYqLp0qKMjAcypo9k6jnR4rWzX75PZjEBwV7LEfo_lHiHiTcFPYIqUqV9Lz3AE-rgva34XDgNPGbWl2-yHVZiGyQCKPrarJusgfffv8_ecV_F9EGA-4aEYj_tIkrcF-OJ8Q5Yr_U8HO=s512",
+      "video": "",
       "image": "./images/vertical-mill-right.jpg",
-      "spareImage" : "./images/vertical-mill-left.jpg",
+      "spareImage": "./images/vertical-mill-left.jpg",
       "spares": [
-        "Grinding Rollers",
-        "Grinding Tables",
-        "Table Liners",
-        "Dam Rings",
-        "Separator Cages",
-        "Classifier Blades",
-        "Rotor Components",
-        "Mill Housing Liners",
-        "Bearing Assemblies",
-        "Sealing Systems",
-        "Segmented Wear Plates",
-        "Drive Components",
-        "Hydraulic Systems",
-        "Lubrication Systems Parts",
-        "Roller Inserts"
+        {
+          "category": "Grinding Components",
+          "image": "",
+          "items": [
+            "Grinding Rollers",
+            "Grinding Tables",
+            "Table Liners",
+            "Dam Rings",
+            "Segmented Wear Plates",
+            "Roller Inserts"
+          ]
+        },
+        {
+          "category": "Separator System",
+          "image": "",
+          "items": [
+            "Separator Cages",
+            "Classifier Blades",
+            "Rotor Components"
+          ]
+        },
+        {
+          "category": "Housing & Protection",
+          "image": "",
+          "items": [
+            "Mill Housing Liners",
+            "Sealing Systems"
+          ]
+        },
+        {
+          "category": "Drive & Support Systems",
+          "image": "",
+          "items": [
+            "Bearing Assemblies",
+            "Drive Components",
+            "Hydraulic Systems",
+            "Lubrication Systems Parts"
+          ]
+        }
       ]
     },
     "rotary-kiln": {
@@ -93,24 +145,50 @@
         "Refractory Solutions",
         "Drive Systems"
       ],
+      "bg": "",
+      "video": "",
       "image": "https://citicheavyindustries.com/products/rotary-kiln_01.jpg",
       "spareImage": "https://rotarykilnfactory.com/wp-content/uploads/2021/01/multi-stage-cyclone-preheater.jpg",
       "spares": [
-        "Support Rollers",
-        "Riding Rings",
-        "Thrust Rollers",
-        "Kiln Shell Sections",
-        "Kiln Tires",
-        "Bearing Assemblies",
-        "Girth Gear and Pinion",
-        "Drive Components",
-        "Sealing Systems",
-        "Kiln Inlet/Outlet Seals",
-        "Burner Components",
-        "Refractory Anchors",
-        "Kiln Inlet Housing",
-        "Shell Cooling Systems",
-        "Alignment Equipment"
+        {
+          "category": "Support & Rotation Components",
+          "image": "",
+          "items": [
+            "Support Rollers",
+            "Riding Rings",
+            "Thrust Rollers",
+            "Kiln Tires",
+            "Bearing Assemblies"
+          ]
+        },
+        {
+          "category": "Kiln Structure",
+          "image": "",
+          "items": [
+            "Kiln Shell Sections",
+            "Refractory Anchors",
+            "Shell Cooling Systems",
+            "Kiln Inlet Housing"
+          ]
+        },
+        {
+          "category": "Drive System",
+          "image": "",
+          "items": [
+            "Girth Gear and Pinion",
+            "Drive Components"
+          ]
+        },
+        {
+          "category": "Sealing & Thermal Components",
+          "image": "",
+          "items": [
+            "Sealing Systems",
+            "Kiln Inlet/Outlet Seals",
+            "Burner Components",
+            "Alignment Equipment"
+          ]
+        }
       ]
     },
     "clinker-cooler": {
@@ -129,24 +207,50 @@
         "Air Distribution Systems",
         "Heat Shields"
       ],
+      "bg": "",
+      "video": "",
       "image": "./images/clinker-cooler-right.jpg",
-      "spareImage" : "./images/clinker-cooler-collage.jpg",
+      "spareImage": "./images/clinker-cooler-collage.jpg",
       "spares": [
-        "Grate Plates",
-        "Fixed/Moving Grates",
-        "Cross Beams",
-        "Hydraulic Cylinders",
-        "Roll Crushers",
-        "Bearings",
-        "Air Distribution Plates",
-        "Heat Shields",
-        "Drive Components",
-        "Cooler Walls",
-        "Support Rollers",
-        "Recupol Mechanisms",
-        "Grate Support Components",
-        "Crusher Components",
-        "Wear Plates"
+        {
+          "category": "Grate Systems",
+          "image": "",
+          "items": [
+            "Grate Plates",
+            "Fixed/Moving Grates",
+            "Cross Beams",
+            "Grate Support Components"
+          ]
+        },
+        {
+          "category": "Drive & Movement Components",
+          "image": "",
+          "items": [
+            "Hydraulic Cylinders",
+            "Drive Components",
+            "Recupol Mechanisms",
+            "Support Rollers"
+          ]
+        },
+        {
+          "category": "Crusher Components",
+          "image": "",
+          "items": [
+            "Roll Crushers",
+            "Crusher Components"
+          ]
+        },
+        {
+          "category": "Thermal & Protection Systems",
+          "image": "",
+          "items": [
+            "Air Distribution Plates",
+            "Heat Shields",
+            "Cooler Walls",
+            "Wear Plates",
+            "Bearings"
+          ]
+        }
       ]
     },
     "packing-plant": {
@@ -165,24 +269,50 @@
         "Discharge Systems",
         "Bag Handling Components"
       ],
+      "bg": "",
+      "video": "",
       "image": "https://cement-plants.com/wp-content/uploads/2022/06/working-of-packer.jpg",
       "spareImage": "./images/packing-plant-image.jpg",
       "spares": [
-        "Filling Spouts",
-        "Weighing Mechanisms",
-        "Electronic Controls",
-        "Impeller Components",
-        "Rotary Tables",
-        "Bag Clamps",
-        "Bag Folders",
-        "Conveyor Belts",
-        "Sealing Mechanisms",
-        "Air Filters",
-        "Valve Components",
-        "Sensors and Switches",
-        "Drive Systems",
-        "Bag Magazine Parts",
-        "Dust Collection Components"
+        {
+          "category": "Filling Components",
+          "image": "",
+          "items": [
+            "Filling Spouts",
+            "Weighing Mechanisms",
+            "Impeller Components",
+            "Rotary Tables"
+          ]
+        },
+        {
+          "category": "Bag Handling",
+          "image": "",
+          "items": [
+            "Bag Clamps",
+            "Bag Folders",
+            "Bag Magazine Parts",
+            "Sealing Mechanisms"
+          ]
+        },
+        {
+          "category": "Control & Automation",
+          "image": "",
+          "items": [
+            "Electronic Controls",
+            "Sensors and Switches"
+          ]
+        },
+        {
+          "category": "Auxiliary Systems",
+          "image": "",
+          "items": [
+            "Conveyor Belts",
+            "Air Filters",
+            "Valve Components",
+            "Drive Systems",
+            "Dust Collection Components"
+          ]
+        }
       ]
     },
     "coal-cement-feeder": {
@@ -201,24 +331,50 @@
         "Dosing Systems",
         "Control Components"
       ],
+      "bg": "",
+      "video": "",
       "image": "./images/coal-and-cement-feeder.jpg",
       "spareImage": "./images/coal-and-cement-feeder-left.jpg",
       "spares": [
-        "Weigh Belts",
-        "Load Cells",
-        "Screw Flights",
-        "Rotary Valves",
-        "Drive Components",
-        "Control Systems",
-        "Metering Gates",
-        "Bearing Assemblies",
-        "Chain and Sprockets",
-        "Encoder Systems",
-        "Sealing Components",
-        "Feed Chutes",
-        "Liners and Wear Plates",
-        "Level Sensors",
-        "Calibration Weights"
+        {
+          "category": "Weighing & Measurement Components",
+          "image": "",
+          "items": [
+            "Weigh Belts",
+            "Load Cells",
+            "Encoder Systems",
+            "Level Sensors",
+            "Calibration Weights"
+          ]
+        },
+        {
+          "category": "Material Transport Elements",
+          "image": "",
+          "items": [
+            "Screw Flights",
+            "Rotary Valves",
+            "Chain and Sprockets",
+            "Feed Chutes"
+          ]
+        },
+        {
+          "category": "Control & Regulation",
+          "image": "",
+          "items": [
+            "Control Systems",
+            "Metering Gates"
+          ]
+        },
+        {
+          "category": "Support & Protection",
+          "image": "",
+          "items": [
+            "Drive Components",
+            "Bearing Assemblies",
+            "Sealing Components",
+            "Liners and Wear Plates"
+          ]
+        }
       ]
     },
     "industry-supply": {
@@ -229,57 +385,100 @@
         "AB Enterprise supplies high-quality industrial equipment and spare parts to a wide range of industries worldwide. With strong ties to leading OEMs and global manufacturers, we deliver reliable products at competitive prices.Our experience in procurement, maintenance, and commissioning helps us provide tailored solutions for smooth and efficient operations. From small factories to large industrial plants, we are a trusted partner for all your supply needs."
       ],
       "features": [],
+      "bg": "",
+      "video": "",
       "image": "https://citicheavyindustries.com/products/rotary-kiln_01.jpg",
       "spareImage": "https://rotarykilnfactory.com/wp-content/uploads/2021/01/multi-stage-cyclone-preheater.jpg",
       "spares": [
-        "Mechanical parts",
-        "Gear Boxes & Reducers",
-        "Couplings",
-        "Air Compressor & Spare Parts",
-        "Bearings",
-        "Electrical Generators",
-        "Magnetic Separators",
-        "Pumps and Repair kits",
-        "Valves",
-        "Pipes & Fittings",
-        "Seals",
-        "Gaskets",
-        "Cylinders",
-        "Instrumentation",
-        "Wire Rope",
-        "Industrial Tools",
-        "Boilers",
-        "Filtration Units",
-        "Industrial Fans",
-        "Blowers",
-        "Automation & Instrumentation",
-        "Electrical Spares",
-        "Cables",
-        "Motors",
-        "Conveyor Belts",
-        "Belt Cleaners",
-        "Rollers & Idlers",
-        "Explosion Proof Lights",
-        "Earth moving machinery",
-        "Hoists & Winches",
-        "Wire Rope",
-        "Flexible Hoses",
-        "Steel & Alloy Castings",
-        "Turbine Spare Parts",
-        "Filter Bags",
-        "Bag Cages",
-        "Hydraulic System",
-        "Wear plates",
-        "Crusher",
-        "Grinding media",
-        "Clinker Cooler",
-        "Bucket Elevators",
-        "Cement Ball Mills",
-        "Roller Press",
-        "Kiln Refractories",
-        "Anchors",
-        "Conveyor Chains",
-        "Rubber Conveyor Belt"
+        {
+          "category": "Mechanical Components",
+          "image": "",
+          "items": [
+            "Mechanical parts",
+            "Gear Boxes & Reducers",
+            "Couplings",
+            "Bearings",
+            "Steel & Alloy Castings"
+          ]
+        },
+        {
+          "category": "Power & Fluid Systems",
+          "image": "",
+          "items": [
+            "Air Compressor & Spare Parts",
+            "Electrical Generators",
+            "Pumps and Repair kits",
+            "Valves",
+            "Pipes & Fittings",
+            "Hydraulic System",
+            "Boilers"
+          ]
+        },
+        {
+          "category": "Sealing & Protection",
+          "image": "",
+          "items": [
+            "Seals",
+            "Gaskets",
+            "Cylinders",
+            "Filter Bags",
+            "Bag Cages",
+            "Wear plates"
+          ]
+        },
+        {
+          "category": "Control & Instrumentation",
+          "image": "",
+          "items": [
+            "Magnetic Separators",
+            "Instrumentation",
+            "Automation & Instrumentation",
+            "Electrical Spares"
+          ]
+        },
+        {
+          "category": "Material Handling Equipment",
+          "image": "",
+          "items": [
+            "Cables",
+            "Motors",
+            "Conveyor Belts",
+            "Belt Cleaners",
+            "Rollers & Idlers",
+            "Earth moving machinery",
+            "Hoists & Winches",
+            "Wire Rope",
+            "Flexible Hoses",
+            "Bucket Elevators",
+            "Conveyor Chains",
+            "Rubber Conveyor Belt"
+          ]
+        },
+        {
+          "category": "Processing Equipment",
+          "image": "",
+          "items": [
+            "Crusher",
+            "Grinding media",
+            "Clinker Cooler",
+            "Cement Ball Mills",
+            "Roller Press",
+            "Kiln Refractories",
+            "Anchors"
+          ]
+        },
+        {
+          "category": "Specialized Equipment",
+          "image": "",
+          "items": [
+            "Explosion Proof Lights",
+            "Turbine Spare Parts",
+            "Filtration Units",
+            "Industrial Fans",
+            "Blowers",
+            "Industrial Tools"
+          ]
+        }
       ]
     },
     "material-handling": {
@@ -287,22 +486,77 @@
       "subtitle": "Bulk & Powder Material Handling Products & Solutions",
       "heading": "Material Handling",
       "description": [
-        "AB Enterprise delivers high-performance material handling systems tailored for bulk, granular, and powdered materials. Our solutions support industries such as cement, lime, gypsum, and power, enabling smooth transport, storage, and transfer of materials like fly ash, quicklime, and gypsum.",
-        "We offer end-to-end services including engineering design, supply of equipment and components, conveyor systems, and full commissioning support. Whether it's mechanical or pneumatic transfer, we ensure reliable and efficient operation throughout the handling process.",
-        "Our expertise also covers ship loading and unloading systems, as well as solutions for transferring materials via silos, trucks, rail wagons, and more—ensuring seamless operations across every stage of the material flow."
+        "AB Enterprise provides advanced material handling solutions designed for bulk, granular, and powdered materials. We serve key industries such as cement, lime, gypsum, and power, facilitating the efficient movement, storage, and processing of materials like fly ash, pulverized limestone, quicklime, and gypsum.",
+        "Our comprehensive offerings include EPC engineering design, supply of conveyors, equipment, and components, along with end-to-end commissioning support. From mechanical to pneumatic systems, we ensure high reliability and performance across all stages of material handling.",
+        "We also specialize in ship loading and unloading systems, as well as customized solutions for transferring materials through silos, trucks, rail wagons, and other modes—enabling smooth, integrated operations throughout your facility."
       ],
       "features": [],
-      "image": "./images/material-handling-1.jpg",
-      "spareImage": "./images/material-handling-3.jpg",
+      "bg": "",
+      "video": "https://videos.pexels.com/video-files/4203003/4203003-uhd_2560_1440_25fps.mp4",
+      "image": "https://img2.exportersindia.com/product_images/bc-full/2023/4/9228126/stone-crusher-belt-conveyor-1680678482-6834950.jpeg",
+      "spareImage": "https://cdn.wajax.com/wp-content/uploads/2018/02/shutterstock_326849114.jpg",
       "spares": [
-        "Rollers",
-        "Impact rollers",
-        "Return rollers with rings",
-        "Guide Rollers",
-        "Hoists",
-        "Winches",
-        "Magnetic Separators",
-        "Belt Cleaners"
+        {
+          "category": "Crushing & Grinding Equipment",
+          "image": "https://insights.globalspec.com/images/assets/353/5353/rock_crushing.JPG",
+          "items": [
+            "Impact Crushers",
+            "Hammer Crushers",
+            "Single Roller Crushers",
+            "Double Roller Crushers",
+            "Ball Mills"
+          ]
+        },
+        {
+          "category": "Conveyors & Belting",
+          "items": [
+            "Rubber Conveyor Belts",
+            "Steel Cord Conveyor Belts",
+            "Belt Splicing Tool Kits",
+            "Cold Splicing Material",
+            "Hot Vulcanizing Kits",
+            "Belt Winders"
+          ]
+        },
+        {
+          "category": "Chains & Transmission",
+          "items": [
+            "Link Plate Chains",
+            "Round Chains",
+            "Apron Feeder Chains"
+          ]
+        },
+        {
+          "category": "Bucket Elevators",
+          "items": [
+            "Bucket Elevator Chains",
+            "Elevator Buckets",
+            "Elevator Belts"
+          ]
+        },
+        {
+          "category": "Rollers & Components",
+          "items": [
+            "Rollers",
+            "Impact rollers",
+            "Return rollers with rings",
+            "Guide Rollers"
+          ]
+        },
+        {
+          "category": "Material Separation & Cleaning",
+          "items": [
+            "Magnetic Separators",
+            "Belt Cleaners"
+          ]
+        },
+        {
+          "category": "Lifting Equipment",
+          "items": [
+            "Hoists",
+            "Winches"
+          ]
+        }
       ]
     },
     "motors-gears": {
@@ -316,28 +570,42 @@
         "We also support customers with energy audits, retrofits, on-site gear overhauls, and sourcing of premium gear units from brands like Flender, SEW, Nord, and Bonfiglioli."
       ],
       "features": [],
+      "bg": "",
+      "video": "",
       "image": "https://images.pexels.com/photos/7568427/pexels-photo-7568427.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
       "spareImage": "./images/gearboxes-1.jpg",
       "spares": [
-        "Squirrel Cage Motors",
-        "Slip Ring Motors",
-        "DC Motors",
-        "Servo Motors",
-        "Vibrator Motors",
-        "IE2/IE3 Motors",
-        "Flameproof Motors (Ex Motors)",
-        "Brake Motors",
-        "One-to-Many Backup Motors",
-        "Helical Gear Motors",
-        "Parallel Shaft Gear Motors",
-        "Helical Bevel Gear Motors",
-        "Worm Gear Motors",
-        "Variable Speed Motors",
-        "Helical & Bevel Helical Gearboxes",
-        "Planetary Gear Units",
-        "Shaft Mounted Gearboxes",
-        "Worm Gears",
-        "Gearmotors"
+        {
+          "category": "Electric Motors",
+          "image": "",
+          "items": [
+            "Squirrel Cage Motors",
+            "Slip Ring Motors",
+            "DC Motors",
+            "Servo Motors",
+            "Vibrator Motors",
+            "IE2/IE3 Motors",
+            "Flameproof Motors (Ex Motors)",
+            "Brake Motors",
+            "One-to-Many Backup Motors",
+            "Variable Speed Motors"
+          ]
+        },
+        {
+          "category": "Gear Motors & Units",
+          "image": "",
+          "items": [
+            "Helical Gear Motors",
+            "Parallel Shaft Gear Motors",
+            "Helical Bevel Gear Motors",
+            "Worm Gear Motors",
+            "Helical & Bevel Helical Gearboxes",
+            "Planetary Gear Units",
+            "Shaft Mounted Gearboxes",
+            "Worm Gears",
+            "Gearmotors"
+          ]
+        }
       ]
     },
     "pumps-valves": {
@@ -350,29 +618,55 @@
         "As a trusted sourcing partner, we provide all types of industrial valves including solenoid, gate, globe, control, and butterfly valves from top global manufacturers. Whether standard or custom-built, our solutions are tailored to meet your specific process requirements with durability and precision."
       ],
       "features": [],
+      "bg": "",
+      "video": "",
       "image": "https://ewtarticles.com/wp-content/uploads/2020/10/Industrial-Pumps.png",
       "spareImage": "https://altumtechnologies.com/wp-content/uploads/2021/06/Pumpsvalves_02_1600x1200.jpg",
       "spares": [
-        "Centrifugal Pumps",
-        "Submersible Pumps",
-        "Rotary Lobe Pumps",
-        "Piston Pumps",
-        "Diaphragm Pumps",
-        "Screw Pumps",
-        "Gear Pumps",
-        "High Pressure Pumps",
-        "Positive Displacement Pumps",
-        "Hydraulic Pumps",
-        "Rotary Vane Pumps",
-        "Peristaltic Pumps",
-        "Solenoid Valves",
-        "Gate Valves",
-        "Globe Valves",
-        "Needle Valves",
-        "Diaphragm Valves",
-        "Butterfly Valves",
-        "Ball Valves",
-        "Control Valves"
+        {
+          "category": "Centrifugal & Submersible Pumps",
+          "image": "",
+          "items": [
+            "Centrifugal Pumps",
+            "Submersible Pumps",
+            "High Pressure Pumps"
+          ]
+        },
+        {
+          "category": "Positive Displacement Pumps",
+          "image": "",
+          "items": [
+            "Rotary Lobe Pumps",
+            "Piston Pumps",
+            "Diaphragm Pumps",
+            "Screw Pumps",
+            "Gear Pumps",
+            "Positive Displacement Pumps",
+            "Hydraulic Pumps",
+            "Rotary Vane Pumps",
+            "Peristaltic Pumps"
+          ]
+        },
+        {
+          "category": "Control & Regulating Valves",
+          "image": "",
+          "items": [
+            "Solenoid Valves",
+            "Control Valves",
+            "Diaphragm Valves",
+            "Needle Valves"
+          ]
+        },
+        {
+          "category": "Isolation & Flow Control Valves",
+          "image": "",
+          "items": [
+            "Gate Valves",
+            "Globe Valves",
+            "Butterfly Valves",
+            "Ball Valves"
+          ]
+        }
       ]
     },
     "compressors-blowers": {
@@ -391,17 +685,37 @@
         "Screw Compressors: Reliable performance with low maintenance",
         "High-Pressure Compressors: Designed for rigorous industrial processes"
       ],
+      "bg": "",
+      "video": "",
       "image": "https://images.pexels.com/photos/26712408/pexels-photo-26712408/free-photo-of-close-up-of-a-steam-train.jpeg?auto=compress&cs=tinysrgb&w=600",
       "spareImage": "https://images.pexels.com/photos/31095182/pexels-photo-31095182/free-photo-of-vintage-air-compressor-with-oil-can-in-workshop.jpeg?auto=compress&cs=tinysrgb&w=600",
       "spares": [
-        "Rotary Lobe Blowers",
-        "Screw Compressors",
-        "Reciprocating Compressors",
-        "Oil-Free Compressors",
-        "High-Pressure Compressors",
-        "Compressed Air Dryers",
-        "Vacuum Pumps",
-        "Compressor Spare Parts"
+        {
+          "category": "Air & Gas Compression Systems",
+          "image": "",
+          "items": [
+            "Rotary Lobe Blowers",
+            "Screw Compressors",
+            "Reciprocating Compressors",
+            "Oil-Free Compressors",
+            "High-Pressure Compressors"
+          ]
+        },
+        {
+          "category": "Air Treatment & Vacuum Systems",
+          "image": "",
+          "items": [
+            "Compressed Air Dryers",
+            "Vacuum Pumps"
+          ]
+        },
+        {
+          "category": "Maintenance & Components",
+          "image": "",
+          "items": [
+            "Compressor Spare Parts"
+          ]
+        }
       ]
     },
     "hydraulics-pneumatics": {
@@ -412,42 +726,74 @@
         "AB Enterprise offers a wide range of hydraulic and pneumatic components for various industrial applications. Our extensive inventory includes products from leading manufacturers, ensuring quality and reliability. From hydraulic pumps and cylinders to pneumatic valves and actuators, we provide solutions tailored to your operational needs. Our expertise allows us to consolidate requirements from multiple brands, simplifying procurement and reducing costs for our clients."
       ],
       "features": [],
+      "bg": "",
+      "video": "",
       "image": "https://images.pexels.com/photos/357440/pexels-photo-357440.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
       "spareImage": "https://images.pexels.com/photos/2569842/pexels-photo-2569842.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
       "spares": [
-        "Hydraulic pumps and motors",
-        "Directional, pressure, flow, and shut-off valves",
-        "Hydraulic cylinders",
-        "Actuators",
-        "Bladders",
-        "Hydraulic filters",
-        "Hydraulic tools",
-        "Clutches",
-        "Hoses",
-        "Filters",
-        "Tube & pipe hydraulics, fittings, flanges",
-        "Cylinders",
-        "Valves",
-        "Tubing and fittings",
-        "Manifolds",
-        "Fittings and connectors",
-        "Silencers",
-        "Sealing accessories",
-        "Tubes and hoses",
-        "Vacuum cups, pumps & accessories",
-        "Pressure gauges & switches",
-        "Ball bearings",
-        "Roller bearings",
-        "Needle bearings",
-        "Plain bearings",
-        "Guide rollers",
-        "Spherical bearings",
-        "Cylindrical bearings",
-        "Plummer blocks",
-        "Bearing housings",
-        "Bearing accessories",
-        "Bushes",
-        "Washers"
+        {
+          "category": "Hydraulic Power Components",
+          "image": "",
+          "items": [
+            "Hydraulic pumps and motors",
+            "Hydraulic cylinders",
+            "Actuators",
+            "Hydraulic filters",
+            "Hydraulic tools",
+            "Clutches"
+          ]
+        },
+        {
+          "category": "Hydraulic Control Components",
+          "image": "",
+          "items": [
+            "Directional, pressure, flow, and shut-off valves",
+            "Tube & pipe hydraulics, fittings, flanges"
+          ]
+        },
+        {
+          "category": "Pneumatic Components",
+          "image": "",
+          "items": [
+            "Cylinders",
+            "Valves",
+            "Tubing and fittings",
+            "Manifolds",
+            "Fittings and connectors",
+            "Silencers",
+            "Vacuum cups, pumps & accessories",
+            "Pressure gauges & switches"
+          ]
+        },
+        {
+          "category": "Connection & Sealing Components",
+          "image": "",
+          "items": [
+            "Hoses",
+            "Filters",
+            "Bladders",
+            "Sealing accessories",
+            "Tubes and hoses"
+          ]
+        },
+        {
+          "category": "Bearing Components",
+          "image": "",
+          "items": [
+            "Ball bearings",
+            "Roller bearings",
+            "Needle bearings",
+            "Plain bearings",
+            "Guide rollers",
+            "Spherical bearings",
+            "Cylindrical bearings",
+            "Plummer blocks",
+            "Bearing housings",
+            "Bearing accessories",
+            "Bushes",
+            "Washers"
+          ]
+        }
       ]
     },
     "electrical-items": {
@@ -463,31 +809,57 @@
         "Power Distribution",
         "Measurement and Control Technology"
       ],
+      "bg": "",
+      "video": "",
       "image": "https://images.pexels.com/photos/236089/pexels-photo-236089.jpeg?auto=compress&cs=tinysrgb&w=600",
       "spareImage": "https://images.pexels.com/photos/7541342/pexels-photo-7541342.jpeg?auto=compress&cs=tinysrgb&w=600",
       "spares": [
-        "Transformers",
-        "Battery Chargers",
-        "Low Voltage Switchgears",
-        "Circuit Breakers",
-        "Signal Devices",
-        "Industrial Plugs & Sockets",
-        "Testing & Measuring Instruments",
-        "Capacitors and Reactors",
-        "Relays",
-        "Conduits",
-        "Fuses",
-        "Wiring Devices",
-        "LED Lights",
-        "Electrical Accessories",
-        "Low Voltage Cables",
-        "High Voltage Cables",
-        "Armored and Shielded Cables",
-        "Control Cables",
-        "Instrumentation Cables",
-        "Solar Cables",
-        "Optical Ground Wire and Winding Wire",
-        "Cable Accessories"
+        {
+          "category": "Power Distribution Equipment",
+          "image": "",
+          "items": [
+            "Transformers",
+            "Low Voltage Switchgears",
+            "Circuit Breakers",
+            "Capacitors and Reactors",
+            "Fuses"
+          ]
+        },
+        {
+          "category": "Electrical Components",
+          "image": "",
+          "items": [
+            "Battery Chargers",
+            "Signal Devices",
+            "Industrial Plugs & Sockets",
+            "Relays",
+            "Conduits",
+            "Wiring Devices",
+            "Electrical Accessories"
+          ]
+        },
+        {
+          "category": "Lighting & Instruments",
+          "image": "",
+          "items": [
+            "LED Lights",
+            "Testing & Measuring Instruments"
+          ]
+        },
+        {
+          "category": "Cables & Accessories",
+          "image": "",
+          "items": [
+            "Low Voltage Cables",
+            "High Voltage Cables",
+            "Armored and Shielded Cables",
+            "Control Cables",
+            "Instrumentation Cables",
+            "Solar Cables",
+            "Optical Ground Wire and Winding Wire",
+            "Cable Accessories"
+          ]
+        }
       ]
     },
     "instrumentation": {
@@ -498,50 +870,82 @@
         "AB Enterprise delivers high-performance instrumentation and control solutions tailored for industrial automation and process efficiency. Our offerings include sensors, transmitters, controllers, and intelligent monitoring systems to optimize accuracy and reliability across manufacturing, energy, and infrastructure sectors. We ensure consistent quality and provide end-to-end support for selecting the right instrumentation suited to specific operational needs."
       ],
       "features": [],
+      "bg": "",
+      "video": "",
       "image": "https://images.pexels.com/photos/5953723/pexels-photo-5953723.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
       "spareImage": "https://images.pexels.com/photos/8940464/pexels-photo-8940464.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
       "spares": [
-        "Universal Transmitters",
-        "Head Mount Temperature Transmitters",
-        "Field Mounted HART Transmitters",
-        "Din Rail Mounted Transmitters",
-        "Signal Transmitters",
-        "Pressure Transmitters",
-        "Level Transmitters",
-        "Temperature Transmitters",
-        "Vibration Sensors",
-        "Temperature Sensors",
-        "Inductive Proximity Sensors",
-        "Positioning Sensors",
-        "Angle Sensors",
-        "Humidity Sensors",
-        "Laser Displacement Sensors",
-        "Surface Scanning Measurement Sensors",
-        "Inductive Displacement Sensors",
-        "Flowmeters",
-        "Solenoid Valves",
-        "Proportional Valves",
-        "Control Valves",
-        "Diaphragm Valves",
-        "Control Valves with Positioners",
-        "Positioners and Process Controllers",
-        "Actuators and Position Feedback",
-        "Transmitters and Controllers",
-        "Level Measurement",
-        "Industrial Gateways",
-        "Modbus Gateway",
-        "Network Controllers",
-        "PC Cards",
-        "Embedded Modules",
-        "Protocol Converters",
-        "Programmable Logic Controllers - PLC",
-        "Data Recorders / Counters",
-        "Point Level Detection",
-        "Pressure Measurement",
-        "Temperature Measurement",
-        "Control and Regulation of Valves",
-        "Weighing Technology and Dosing",
-        "Process Analytics / Monitoring"
+        {
+          "category": "Transmitters",
+          "image": "",
+          "items": [
+            "Universal Transmitters",
+            "Head Mount Temperature Transmitters",
+            "Field Mounted HART Transmitters",
+            "Din Rail Mounted Transmitters",
+            "Signal Transmitters",
+            "Pressure Transmitters",
+            "Level Transmitters",
+            "Temperature Transmitters"
+          ]
+        },
+        {
+          "category": "Sensors & Measurement",
+          "image": "",
+          "items": [
+            "Vibration Sensors",
+            "Temperature Sensors",
+            "Inductive Proximity Sensors",
+            "Positioning Sensors",
+            "Angle Sensors",
+            "Humidity Sensors",
+            "Laser Displacement Sensors",
+            "Surface Scanning Measurement Sensors",
+            "Inductive Displacement Sensors",
+            "Flowmeters"
+          ]
+        },
+        {
+          "category": "Valves & Control Equipment",
+          "image": "",
+          "items": [
+            "Solenoid Valves",
+            "Proportional Valves",
+            "Control Valves",
+            "Diaphragm Valves",
+            "Control Valves with Positioners",
+            "Positioners and Process Controllers",
+            "Actuators and Position Feedback"
+          ]
+        },
+        {
+          "category": "Controllers & Networking",
+          "image": "",
+          "items": [
+            "Transmitters and Controllers",
+            "Industrial Gateways",
+            "Modbus Gateway",
+            "Network Controllers",
+            "PC Cards",
+            "Embedded Modules",
+            "Protocol Converters",
+            "Programmable Logic Controllers - PLC",
+            "Data Recorders / Counters"
+          ]
+        },
+        {
+          "category": "Process Monitoring & Analysis",
+          "image": "",
+          "items": [
+            "Point Level Detection",
+            "Pressure Measurement",
+            "Temperature Measurement",
+            "Control and Regulation of Valves",
+            "Weighing Technology and Dosing",
+            "Process Analytics / Monitoring",
+            "Level Measurement"
+          ]
+        }
       ]
     },
     "coupling-seals": {
@@ -552,30 +956,56 @@
         "AB Enterprise supplies premium-quality couplings and sealing components designed for industrial reliability and efficiency. From precision-engineered mechanical seals to flexible power transmission couplings, we ensure robust performance in even the most demanding environments. Our wide stock range and sourcing from global OEMs help us provide quick solutions tailored for replacement, retrofitting, or new installations."
       ],
       "features": [],
+      "bg": "",
+      "video": "",
       "image": "https://images.pexels.com/photos/7565159/pexels-photo-7565159.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
       "spareImage": "https://images.pexels.com/photos/18845071/pexels-photo-18845071/free-photo-of-mechanic-repairing-machine.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
       "spares": [
-        "Flexible Couplings",
-        "Rigid Steel Couplings",
-        "Sleeve Coupling",
-        "Flange Couplings",
-        "Fluid Couplings",
-        "Bush Pin Type Flexible Couplings",
-        "Gear Couplings",
-        "Universal Joints (Cardan Shafts)",
-        "Rotary Shaft Seals",
-        "Mechanical Seals",
-        "V-rings",
-        "Wiper Seals",
-        "O-Rings",
-        "Graphite Gaskets",
-        "Spiral Wound Gaskets",
-        "Metallic Gaskets",
-        "PTFE Gaskets",
-        "ePTFE Tapes",
-        "Rubber Gaskets",
-        "Fiber Gaskets",
-        "Vibration Dampers"
+        {
+          "category": "Mechanical Couplings",
+          "image": "",
+          "items": [
+            "Flexible Couplings",
+            "Rigid Steel Couplings",
+            "Sleeve Coupling",
+            "Flange Couplings",
+            "Fluid Couplings",
+            "Bush Pin Type Flexible Couplings",
+            "Gear Couplings",
+            "Universal Joints (Cardan Shafts)"
+          ]
+        },
+        {
+          "category": "Shaft Seals",
+          "image": "",
+          "items": [
+            "Rotary Shaft Seals",
+            "Mechanical Seals",
+            "V-rings",
+            "Wiper Seals",
+            "O-Rings"
+          ]
+        },
+        {
+          "category": "Gaskets & Static Seals",
+          "image": "",
+          "items": [
+            "Graphite Gaskets",
+            "Spiral Wound Gaskets",
+            "Metallic Gaskets",
+            "PTFE Gaskets",
+            "ePTFE Tapes",
+            "Rubber Gaskets",
+            "Fiber Gaskets"
+          ]
+        },
+        {
+          "category": "Vibration Control",
+          "image": "",
+          "items": [
+            "Vibration Dampers"
+          ]
+        }
       ]
     }
   }

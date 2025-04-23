@@ -215,6 +215,11 @@ body {
     animation: bgZoom 30s ease-in-out infinite alternate;
 }
 
+.textured {
+    background-color: #fafafa;
+    background-image: url("https://www.transparenttextures.com/patterns/cubes.png");
+}
+
 .hero-height {
     height: 60vh;
 }
@@ -742,20 +747,33 @@ body {
     /* Use 100% to match parent container instead of arbitrary height */
     object-fit: cover;
     z-index: -1;
+    background-color: rgba(0, 0, 0, 0.4);
 }
 
+.bg-image {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    z-index: -1;
+
+}
+
+
+
 .overlay {
-    position: fixed;
+    position: absolute;
     top: 0;
     left: 0;
     width: 100%;
     height: 100%;
     background-color: rgba(0, 0, 0, 0.7);
-    /* Black with transparency */
     z-index: 1000;
     display: none;
-    /* Hidden by default */
+
 }
+
 
 #hero-section {
     position: relative;
@@ -767,7 +785,10 @@ body {
     justify-content: center;
     text-align: center;
     overflow: hidden;
-    /* Prevent any content from spilling out */
+    background-position: center;
+    background-size: cover;
+    animation: bgZoom 30s ease-in-out infinite alternate !important;
+    background-color: rgba(0, 0, 0, 0.4);
 }
 
 /* Responsive Styles */
@@ -893,15 +914,15 @@ body {
     background-size: cover;
 }
 
-#closeButton{
-   height: max-content;
+#closeButton {
+    height: max-content;
 }
 
 
 @media (max-width: 768px) {
-  #spare-parts-section {
-    flex-direction: column;
-  }
+    #spare-parts-section {
+        flex-direction: column;
+    }
 }
 
 
