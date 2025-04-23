@@ -29,7 +29,7 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
 
         // Email Setup
         $mail->setFrom($email, $name);
-        $mail->addAddress('dilkhushjha08@gmail.com'); // Your recipient email
+        $mail->addAddress('sales@ansaribrother.com'); // Your recipient email
 
         $mail->Subject = 'New Inquiry from Website';
         $mail->Body = "Name: $name\nEmail: $email\nCompany: $company\nPhone: $phone\nService: $service\nMessage:\n$message";

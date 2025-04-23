@@ -63,7 +63,7 @@
     <div class="container border-0">
         <div id="logo-container">
 
-            <a class="navbar-brand" href="/index.html">
+            <a class="navbar-brand" href="./index.html">
                 <img src="./images/logo-tp.png" alt="Logo" style="width: 180px;" class="py-2">
                 <span class="position-absolute top-0 fs-6 mt-3 fw-bold text-primary-red">®</span>
             </a>
@@ -78,7 +78,7 @@
                     &times;
                 </button>
                 <div class="mobile-logo-container">
-                    <img src="./images/logo-tp.png" alt="Logo" style="width: 150px;">
+                    <img src="./images/logo-tp.png" alt="Logo" style="width: 120px;">
                     <span class="position-relative fs-6 fw-bold text-primary-red">®</span>
                 </div>
             </div>
@@ -91,8 +91,8 @@
                     </a>
                     <ul class="dropdown-menu" aria-labelledby="companyDropdown">
                         <li><a class="dropdown-item" href="./about.html">About Us</a></li>
-                        <li><a class="dropdown-item" href="">Clientale</a></li>
-                        <li><a class="dropdown-item" href="#product-1">Our Subsidiaries</a></li>
+                        <!-- <li><a class="dropdown-item" href="">Clientale</a></li> -->
+                        <!-- <li><a class="dropdown-item" href="#product-1">Our Subsidiaries</a></li> -->
                     </ul>
                 </li>
                 <li class="nav-item dropdown">
@@ -116,7 +116,7 @@
                     </ul>
                 </li>
                 <li class="nav-item dropdown">
-                    <a class="nav-link dropdown-toggle" href="./product.html" id="productsDropdown" role="button"
+                    <a class="nav-link dropdown-toggle" href="#" id="productsDropdown" role="button"
                         data-bs-toggle="dropdown" aria-expanded="false">
                         Products
                     </a>
@@ -144,19 +144,23 @@
                     </ul>
                 </li>
                 <li class="nav-item dropdown">
-                    <a class="nav-link dropdown-toggle" href="./industries.html" id="sectorsDropdown" role="button"
+                    <a class="nav-link dropdown-toggle" href="#" id="sectorsDropdown" role="button"
                         data-bs-toggle="dropdown" aria-expanded="false">
                         Sectors
                     </a>
                     <ul class="dropdown-menu" aria-labelledby="sectorsDropdown">
-                        <li><a class="dropdown-item" href="/cement-industry">Cement Industry</a></li>
-                        <li><a class="dropdown-item" href="/cement-industry">Power Plants</a></li>
-                        <li><a class="dropdown-item" href="/cement-industry">Gypsum Industry</a></li>
-                        <li><a class="dropdown-item" href="/cement-industry">Oil & Gas Industry</a></li>
+                        <li><a class="dropdown-item" href="javascript:void(0)"
+                                onclick="navigateToSectors('cement-industry')">Cement Industry</a></li>
+                        <li><a class="dropdown-item" href="javascript:void(0)"
+                                onclick="navigateToSectors('power-plant')">Power Plants</a></li>
+                        <li><a class="dropdown-item" href="javascript:void(0)"
+                                onclick="navigateToSectors('gypsum-industry')">Gypsum Industry</a></li>
+                        <li><a class="dropdown-item" href="javascript:void(0)"
+                                onclick="navigateToSectors('oil-and-gas-industry')">Oil & Gas Industry</a></li>
                     </ul>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link" href="/contact.html">Contact</a>
+                    <a class="nav-link" href="./contact.html">Contact</a>
                 </li>
             </ul>
         </div>

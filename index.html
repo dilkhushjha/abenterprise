@@ -56,6 +56,8 @@
 
 <body>
 
+
+
     <div id="navbar"></div>
     <div id="hero" class="shadow"></div>
 
@@ -153,52 +155,56 @@
                 <div class="row g-4">
                     <div class="col-lg-3 col-md-6">
                         <div class="card service-card h-100 rounded-0 py-2">
-                            <img src="https://images.pexels.com/photos/906982/pexels-photo-906982.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2"
+                            <img src="https://images.pexels.com/photos/247763/pexels-photo-247763.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2"
                                 class="card-img-top" alt="Machinery Export">
                             <div class="card-body">
                                 <h5 class="card-title fw-bold fs-4 py-2">Cement Industry</h5>
                                 <p class="card-text">Full-service export of industrial machinery, equipment, and
                                     complete
                                     production lines to meet your operational needs.</p>
-                                <a href="/sector" class="button-primary">Learn More</a>
+                                <a href="javascript:void(0)" onclick="navigateToSectors('cement-industry')"
+                                    class="button-primary">Learn More</a>
                             </div>
                         </div>
                     </div>
                     <div class="col-lg-3 col-md-6">
                         <div class="card service-card h-100 rounded-0 py-2">
-                            <img src="https://imageio.forbes.com/specials-images/imageserve/60d9b46e12bfea55afde383e/0x0.jpg?format=jpg&height=900&width=1600&fit=bounds"
+                            <img src="https://images.pexels.com/photos/459728/pexels-photo-459728.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1"
                                 class="card-img-top" alt="Spare Parts Supply">
                             <div class="card-body">
                                 <h5 class="card-title fw-bold fs-4 py-2">Power Plants</h5>
                                 <p class="card-text">Access to a vast inventory of original and OEM replacement parts
                                     for
                                     various industrial machinery and equipment.</p>
-                                <a href="/sector" class="button-primary">Learn More</a>
+                                <a href="javascript:void(0)" onclick="navigateToSectors('power-plant')"
+                                    class="button-primary">Learn More</a>
                             </div>
                         </div>
                     </div>
                     <div class="col-lg-3 col-md-6">
                         <div class="card service-card h-100  rounded-0 py-2">
-                            <img src="https://images.pexels.com/photos/906982/pexels-photo-906982.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2"
+                            <img src="https://images.pexels.com/photos/236722/pexels-photo-236722.jpeg?auto=compress&cs=tinysrgb&w=600"
                                 class="card-img-top" alt="Logistics Solutions">
                             <div class="card-body">
                                 <h5 class="card-title fw-bold fs-4 py-2">Oil & Gas</h5>
                                 <p class="card-text">Comprehensive logistics management including freight forwarding,
                                     customs clearance, and documentation handling.</p>
-                                <a href="/sector" class="button-primary">Learn More</a>
+                                <a href="javascript:void(0)" onclick="navigateToSectors('oil-and-gas-industry')"
+                                    class="button-primary">Learn More</a>
                             </div>
                         </div>
                     </div>
                     <div class="col-lg-3 col-md-6">
                         <div class="card service-card h-100 rounded-0 py-2">
-                            <img src="https://images.pexels.com/photos/906982/pexels-photo-906982.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2"
+                            <img src="https://images.pexels.com/photos/2101140/pexels-photo-2101140.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1"
                                 class="card-img-top" alt="Technical Consultation">
                             <div class="card-body">
-                                <h5 class="card-title fw-bold fs-4 py-2">Mining Industry</h5>
+                                <h5 class="card-title fw-bold fs-4 py-2">Gypsum Industry</h5>
                                 <p class="card-text">Expert guidance on equipment selection, compatibility, and
                                     technical
                                     specifications for optimal performance.</p>
-                                <a href="/sector" class="button-primary">Learn More</a>
+                                <a href="javascript:void(0)" onclick="navigateToSectors('gypsum-industry')"
+                                    class="button-primary">Learn More</a>
                             </div>
                         </div>
                     </div>
@@ -292,7 +298,7 @@
                     <p class="lead">Browse our comprehensive range of industrial machinery and spare parts</p>
                 </div>
 
-                <ul class="nav nav-pills mb-4 pb-4 justify-content-center" id="productTab" role="tablist">
+                <!-- <ul class="nav nav-pills mb-4 pb-4 justify-content-center" id="productTab" role="tablist">
                     <li class="nav-item " role="presentation">
                         <button class="nav-link active text-dark" id="all-tab" data-bs-toggle="pill"
                             data-bs-target="#all" type="button">All Categories</button>
@@ -309,14 +315,15 @@
                         <button class="nav-link text-dark" id="tools-tab" data-bs-toggle="pill" data-bs-target="#tools"
                             type="button">Tools & Equipment</button>
                     </li>
-                </ul>
+                </ul> -->
 
                 <div class="tab-content" id="productTabContent">
                     <div class="tab-pane fade show active" id="all">
                         <div class="row g-4">
-                            <div class="col-lg-3 col-md-4 col-6">
-                                <div class="card product-item">
-                                    <img src="https://images.pexels.com/photos/2965258/pexels-photo-2965258.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2"
+                            <div class="col-lg-3 col-md-4 col-6 ">
+                                <div class="card product-item border">
+                                    <img style="height: 180px;"
+                                        src="https://ballmillssupplier.com/wp-content/uploads/elementor/thumbs/vertical-cement-mill-q2ffhq548rieozwziesn7xuahrpimk8q2khayucgm8.jpg"
                                         class="card-img-top" alt="CNC Machine">
                                     <div class="card-body text-center">
                                         <h6 class="card-title fw-bold fs-5 pt-2">Vertical Mill Spares</h6>
@@ -326,8 +333,9 @@
                                 </div>
                             </div>
                             <div class="col-lg-3 col-md-4 col-6">
-                                <div class="card product-item">
-                                    <img src="https://images.pexels.com/photos/2965258/pexels-photo-2965258.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2"
+                                <div class="card product-item border">
+                                    <img style="height: 180px;"
+                                        src="https://tse3.mm.bing.net/th?id=OIP.TaIHv9sztrTjm8ySMHGLEwHaEo&pid=Api&P=0&h=180"
                                         class="card-img-top" alt="Hydraulic Parts">
                                     <div class="card-body text-center">
                                         <h6 class="card-title fw-bold fs-5 pt-2">Clinker Cooler</h6>
@@ -337,8 +345,9 @@
                                 </div>
                             </div>
                             <div class="col-lg-3 col-md-4 col-6">
-                                <div class="card product-item">
-                                    <img src="https://images.pexels.com/photos/2965258/pexels-photo-2965258.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2"
+                                <div class="card product-item border">
+                                    <img style="height: 180px;"
+                                        src="https://tse2.mm.bing.net/th?id=OIP.-T7YgHJ0tUXyQaO9tMHSogHaE7&pid=Api&P=0&h=180"
                                         class="card-img-top" alt="Electric Motors">
                                     <div class="card-body text-center">
                                         <h6 class="card-title fw-bold fs-5 pt-2">Rotary Kiln</h6>
@@ -348,8 +357,9 @@
                                 </div>
                             </div>
                             <div class="col-lg-3 col-md-4 col-6">
-                                <div class="card product-item">
-                                    <img src="https://images.pexels.com/photos/2965258/pexels-photo-2965258.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2"
+                                <div class="card product-item border">
+                                    <img style="height: 180px;"
+                                        src="https://5.imimg.com/data5/SELLER/Default/2022/5/YB/LB/WH/12569454/gravimetric-coal-feeder-1000x1000.jpg"
                                         class="card-img-top" alt="Pumps & Valves">
                                     <div class="card-body text-center">
                                         <h6 class="card-title fw-bold fs-5 pt-2">Coal & Cement feeder</h6>
@@ -601,6 +611,20 @@
 
     </main>
 
+    <!-- Centered notification box -->
+    <div class="notification-box p-6 text-left" id="notificationBox">
+
+        <div class="">
+            <h4 class="mb-4">Website in redevelopment 🚧</h4>
+            <p>We're working hard to bring you a new and improved website! <br> Thank you for your patience as we make
+                exciting updates. Please check back soon for an enhanced experience.</p>
+
+        </div>
+        <button id="closeButton">Yes, I understand.</button>
+    </div>
+
+
+
     <div id="requestQuote"></div>
 
 
@@ -619,11 +643,29 @@
         loadPartial("requestQuote", "partials/requestQuote.ejs");
         // loadPartial("clientCarousel", "partials/clientCarousel.ejs");
         loadPartial("footer", "partials/footer.ejs");
+
+        window.onload = function () {
+            const overlay = document.getElementById('overlay');
+            const notificationBox = document.getElementById('notificationBox');
+            const closeButton = document.getElementById('closeButton');
+
+
+            notificationBox.style.display = 'flex';
+
+            // Close the notification when the "Okay" button is clicked
+            closeButton.addEventListener('click', function () {
+                console.log("Clicked")
+                notificationBox.style.display = 'none';
+            });
+
+
+        };
     </script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/bootstrap/5.3.0/js/bootstrap.bundle.min.js"></script>
 
     <script src="index.js"></script>
     <script src="productLoader.js"> </script>
+    <script src="sectorsLoader.js"> </script>
 
 
 

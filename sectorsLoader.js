@@ -1,72 +1,72 @@
 
 
 // Get the product ID from the URL
-function getProductIdFromUrl() {
+function getSectorsIdFromUrl() {
     // Extract the product ID from URL parameters
     const urlParams = new URLSearchParams(window.location.search);
-    return urlParams.get('product');
+    return urlParams.get('sectors');
 }
 
 // Load product data and populate the template
-async function loadProductData() {
+async function loadSectorsData() {
     try {
         // Get product ID from URL
-        const productId = getProductIdFromUrl();
+        const sectorsId = getSectorsIdFromUrl();
 
-        if (!productId) {
-            console.error('No product ID specified in URL');
-            document.getElementById('product-hero-title').textContent = 'Page in Progress - Check back soon';
+        if (!sectorsId) {
+            console.error('No sector ID specified in URL');
+            document.getElementById('sectors-hero-title').textContent = 'Page in Progress - Check back soon';
             return;
         }
 
         // Fetch the products data
-        const response = await fetch('products.json');
+        const response = await fetch('sectors.json');
         const data = await response.json();
 
         // Get the specific product data
-        const productData = data.products[productId];
+        const sectorsData = data.sectors[sectorsId];
 
-        if (!productData) {
-            console.error('Product not found:', productId);
-            document.getElementById('product-hero-title').textContent = 'Page in Progress - Check back soon';
+        if (!sectorsData) {
+            console.error('Sector not found:', sectorsId);
+            document.getElementById('sectors-hero-title').textContent = 'Page in Progress - Check back soon';
             return;
         }
 
         // Update page title
-        document.title = `${productData.title} | ABEnterprise`;
+        document.title = `${sectorsData.title} | ABEnterprise`;
 
         // Update hero section
-        document.getElementById('product-hero-title').textContent = productData.title;
-        document.getElementById('product-breadcrumb').textContent = `Home / ${productData.title}`;
+        document.getElementById('sectors-hero-title').textContent = sectorsData.title;
+        document.getElementById('sectors-breadcrumb').textContent = `Home / ${sectorsData.title}`;
 
         // Update product details section
-        document.getElementById('product-subtitle').textContent = productData.subtitle;
-        document.getElementById('product-heading').textContent = productData.heading;
+        document.getElementById('sectors-subtitle').textContent = sectorsData.subtitle;
+        document.getElementById('sectors-heading').textContent = sectorsData.heading;
 
         // Add description paragraphs
-        const descriptionContainer = document.getElementById('product-description');
+        const descriptionContainer = document.getElementById('sectors-description');
         descriptionContainer.innerHTML = '';
-        productData.description.forEach(paragraph => {
+        sectorsData.description.forEach(paragraph => {
             const p = document.createElement('p');
             p.textContent = paragraph;
             descriptionContainer.appendChild(p);
         });
 
         // Add features list
-        const featuresList = document.getElementById('product-features');
+        const featuresList = document.getElementById('sectors-features');
         featuresList.innerHTML = '';
-        productData.features.forEach(feature => {
+        sectorsData.features.forEach(feature => {
             const li = document.createElement('li');
             li.textContent = feature;
             featuresList.appendChild(li);
         });
 
         // Add product image if available
-        const imageContainer = document.getElementById('product-image-container');
-        if (productData.image) {
+        const imageContainer = document.getElementById('sectors-image-container');
+        if (sectorsData.image) {
             imageContainer.innerHTML = `
                 <div class="product-image">
-                    <img src="${productData.image}" alt="${productData.title}" class="img-fluid shadow">
+                    <img src="${sectorsData.image}" alt="${sectorsData.title}" class="img-fluid shadow">
                 </div>
             `;
         } else {
@@ -74,10 +74,10 @@ async function loadProductData() {
         }
 
         const spareImage = document.getElementById('spareImage');
-        if (productData.spareImage) {
+        if (sectorsData.spareImage) {
             spareImage.innerHTML = `
                 <div class="product-image h-100">
-                    <img src="${productData.spareImage}" alt="${productData.title}" class="img-fluid  shadow-lg">
+                    <img src="${sectorsData.spareImage}" alt="${sectorsData.title}" class="img-fluid  shadow-lg">
                 </div>
             `;
         } else {
@@ -87,17 +87,17 @@ async function loadProductData() {
         // Populate spare parts list
         const sparesList = document.getElementById('spares-list');
 
-        if (productData.spares && productData.spares.length > 0) {
+        if (sectorsData.spares && sectorsData.spares.length > 0) {
             // If there are many spares, create columns
-            if (productData.spares.length > 20) {
+            if (sectorsData.spares.length > 20) {
                 const columns = 3; // Adjust the number of columns if needed
-                const itemsPerColumn = Math.ceil(productData.spares.length / columns);
+                const itemsPerColumn = Math.ceil(sectorsData.spares.length / columns);
                 let html = '<div class="row">';
 
                 for (let i = 0; i < columns; i++) {
                     html += '<div class="">';
                     html += '<ul class="list-group">';
-                    productData.spares.slice(i * itemsPerColumn, (i + 1) * itemsPerColumn).forEach(spare => {
+                    sectorsData.spares.slice(i * itemsPerColumn, (i + 1) * itemsPerColumn).forEach(spare => {
                         html += `
                             <li class=" d-flex align-items-center mb-2">
                                           <span class="text-white d-flex fw-bold bg-primary-red rounded-circle px-2 py-1  me-3 spare-item ">
@@ -116,7 +116,7 @@ async function loadProductData() {
                 // For fewer spares, display them in a single list
                 // With tooltip for long text
                 sparesList.innerHTML = '<div class="row g-3">' +
-                    productData.spares.map(spare => `
+                    sectorsData.spares.map(spare => `
                      <div class="col-md-  mb-2">
                         <div class="d-flex  align-items-center" style="white-space: nowrap; overflow: hidden;">
                             <span class="text-white d-flex fw-bold bg-primary-red rounded-circle px-2 py-1  me-3 spare-item ">
@@ -137,14 +137,14 @@ async function loadProductData() {
             document.getElementById('spare-parts-section').style.display = 'none';
         }
     } catch (error) {
-        console.error('Error loading product data:', error);
+        console.error('Error loading sectors data:', error);
     }
 }
 
 // Function to navigate to a product page
-function navigateToProduct(productId) {
-    window.location.href = `product.html?product=${productId}`;
+function navigateToSectors(sectorsId) {
+    window.location.href = `sectors.html?sectors=${sectorsId}`;
 }
 
 // Initialize the page
-document.addEventListener('DOMContentLoaded', loadProductData);
+document.addEventListener('DOMContentLoaded', loadSectorsData);

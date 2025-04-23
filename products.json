@@ -16,7 +16,7 @@
         "PACKING PLANT",
         "COAL AND CEMENT FEEDER"
       ],
-      "image": "https://www.germanindustryparts.shop/gallery_gen/dd1ff32596392f23a38b4e33ac738362_812x542_fit.jpg?ts=1717455120",
+      "image": "https://images.pexels.com/photos/5032845/pexels-photo-5032845.jpeg?auto=compress&cs=tinysrgb&w=600",
       "spareImage": "https://images.pexels.com/photos/1058141/pexels-photo-1058141.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=700",
       "spares": [
         "Kiln Tires",
@@ -57,7 +57,8 @@
         "Separator Components",
         "Mill Housing Parts"
       ],
-      "image": "./images/vertical-mill.jpg",
+      "image": "./images/vertical-mill-right.jpg",
+      "spareImage" : "./images/vertical-mill-left.jpg",
       "spares": [
         "Grinding Rollers",
         "Grinding Tables",
@@ -128,7 +129,8 @@
         "Air Distribution Systems",
         "Heat Shields"
       ],
-      "image": "./images/clinker-cooler.jpg",
+      "image": "./images/clinker-cooler-right.jpg",
+      "spareImage" : "./images/clinker-cooler-collage.jpg",
       "spares": [
         "Grate Plates",
         "Fixed/Moving Grates",
@@ -164,6 +166,7 @@
         "Bag Handling Components"
       ],
       "image": "https://cement-plants.com/wp-content/uploads/2022/06/working-of-packer.jpg",
+      "spareImage": "./images/packing-plant-image.jpg",
       "spares": [
         "Filling Spouts",
         "Weighing Mechanisms",
@@ -198,7 +201,8 @@
         "Dosing Systems",
         "Control Components"
       ],
-      "image": "./images/feeder-systems.jpg",
+      "image": "./images/coal-and-cement-feeder.jpg",
+      "spareImage": "./images/coal-and-cement-feeder-left.jpg",
       "spares": [
         "Weigh Belts",
         "Load Cells",
@@ -288,8 +292,8 @@
         "Our expertise also covers ship loading and unloading systems, as well as solutions for transferring materials via silos, trucks, rail wagons, and more—ensuring seamless operations across every stage of the material flow."
       ],
       "features": [],
-      "image": "https://www.mhe-tech.com/uploads/220623/1-220623152H1434.jpg",
-      "spareImage": "https://cdn.gulfatlanticequipment.com/wp-content/uploads/2018/07/screw-conveyors-bucket-elevators.jpg",
+      "image": "./images/material-handling-1.jpg",
+      "spareImage": "./images/material-handling-3.jpg",
       "spares": [
         "Rollers",
         "Impact rollers",
@@ -312,8 +316,8 @@
         "We also support customers with energy audits, retrofits, on-site gear overhauls, and sourcing of premium gear units from brands like Flender, SEW, Nord, and Bonfiglioli."
       ],
       "features": [],
-      "image": "https://www.siemens.com/press/pool/de/pressebilder/2007/07_august/soem200726-03_600x480.jpg",
-      "spareImage": "https://www.larotors.com/wp-content/uploads/2022/09/electric-motors.jpg",
+      "image": "https://images.pexels.com/photos/7568427/pexels-photo-7568427.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
+      "spareImage": "./images/gearboxes-1.jpg",
       "spares": [
         "Squirrel Cage Motors",
         "Slip Ring Motors",
@@ -387,8 +391,8 @@
         "Screw Compressors: Reliable performance with low maintenance",
         "High-Pressure Compressors: Designed for rigorous industrial processes"
       ],
-      "image": "https://www.photos-videos.atlascopco.com/images/3914/zt-132-vsd-ff.jpg",
-      "spareImage": "https://www.photos-videos.atlascopco.com/images/3914/zt-132-vsd-ff.jpg",
+      "image": "https://images.pexels.com/photos/26712408/pexels-photo-26712408/free-photo-of-close-up-of-a-steam-train.jpeg?auto=compress&cs=tinysrgb&w=600",
+      "spareImage": "https://images.pexels.com/photos/31095182/pexels-photo-31095182/free-photo-of-vintage-air-compressor-with-oil-can-in-workshop.jpeg?auto=compress&cs=tinysrgb&w=600",
       "spares": [
         "Rotary Lobe Blowers",
         "Screw Compressors",
@@ -408,8 +412,8 @@
         "AB Enterprise offers a wide range of hydraulic and pneumatic components for various industrial applications. Our extensive inventory includes products from leading manufacturers, ensuring quality and reliability. From hydraulic pumps and cylinders to pneumatic valves and actuators, we provide solutions tailored to your operational needs. Our expertise allows us to consolidate requirements from multiple brands, simplifying procurement and reducing costs for our clients."
       ],
       "features": [],
-      "image": "https://unsplash.com/photos/9zT1s8k1XjA",
-      "spareImage": "https://www.photos-videos.atlascopco.com/images/3914/zt-132-vsd-ff.jpg",
+      "image": "https://images.pexels.com/photos/357440/pexels-photo-357440.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
+      "spareImage": "https://images.pexels.com/photos/2569842/pexels-photo-2569842.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
       "spares": [
         "Hydraulic pumps and motors",
         "Directional, pressure, flow, and shut-off valves",
@@ -459,8 +463,8 @@
         "Power Distribution",
         "Measurement and Control Technology"
       ],
-      "image": "https://cdn.pixabay.com/photo/2016/03/27/18/24/electric-1288717_960_720.jpg",
-      "spareImage": "https://cdn.pixabay.com/photo/2016/03/27/18/24/electric-1288717_960_720.jpg",
+      "image": "https://images.pexels.com/photos/236089/pexels-photo-236089.jpeg?auto=compress&cs=tinysrgb&w=600",
+      "spareImage": "https://images.pexels.com/photos/7541342/pexels-photo-7541342.jpeg?auto=compress&cs=tinysrgb&w=600",
       "spares": [
         "Transformers",
         "Battery Chargers",
@@ -494,8 +498,8 @@
         "AB Enterprise delivers high-performance instrumentation and control solutions tailored for industrial automation and process efficiency. Our offerings include sensors, transmitters, controllers, and intelligent monitoring systems to optimize accuracy and reliability across manufacturing, energy, and infrastructure sectors. We ensure consistent quality and provide end-to-end support for selecting the right instrumentation suited to specific operational needs."
       ],
       "features": [],
-      "image": "https://cdn.pixabay.com/photo/2016/02/23/17/36/technology-1210163_1280.jpg",
-      "spareImage": "https://cdn.pixabay.com/photo/2016/02/23/17/36/technology-1210163_1280.jpg",
+      "image": "https://images.pexels.com/photos/5953723/pexels-photo-5953723.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
+      "spareImage": "https://images.pexels.com/photos/8940464/pexels-photo-8940464.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
       "spares": [
         "Universal Transmitters",
         "Head Mount Temperature Transmitters",
@@ -548,8 +552,8 @@
         "AB Enterprise supplies premium-quality couplings and sealing components designed for industrial reliability and efficiency. From precision-engineered mechanical seals to flexible power transmission couplings, we ensure robust performance in even the most demanding environments. Our wide stock range and sourcing from global OEMs help us provide quick solutions tailored for replacement, retrofitting, or new installations."
       ],
       "features": [],
-      "image": "https://cdn.pixabay.com/photo/2017/06/22/20/54/seal-2436413_1280.jpg",
-      "spareImage": "https://cdn.pixabay.com/photo/2017/06/22/20/54/seal-2436413_1280.jpg",
+      "image": "https://images.pexels.com/photos/7565159/pexels-photo-7565159.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
+      "spareImage": "https://images.pexels.com/photos/18845071/pexels-photo-18845071/free-photo-of-mechanic-repairing-machine.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
       "spares": [
         "Flexible Couplings",
         "Rigid Steel Couplings",

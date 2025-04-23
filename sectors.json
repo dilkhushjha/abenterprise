@@ -1,0 +1,174 @@
+{
+    "sectors": {
+      "cement-industry": {
+        "title": "Cement Industry",
+        "subtitle": "From Raw Earth to Rock Solid Structures",
+        "heading": "Cement Industry",
+        "description": [
+            "At AB Enterprise, we play a vital role in supporting the cement industry by providing high-quality materials, innovative solutions, and reliable services that meet the demands of modern infrastructure.",
+            "Our commitment to excellence ensures strength, durability, and sustainability in every project. From sourcing to supply, we contribute to building the strong foundations of tomorrow’s world."
+        ],
+        "features": [
+          "VERTICAL MILL",
+          "PRE-HEATER",
+          "ROTARY KILN",
+          "CLINKER COOLER",
+          "PACKING PLANT",
+          "COAL AND CEMENT FEEDER"
+        ],
+        "image": "https://images.pexels.com/photos/5032845/pexels-photo-5032845.jpeg?auto=compress&cs=tinysrgb&w=600",
+        "spareImage": "https://images.pexels.com/photos/1058141/pexels-photo-1058141.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=700",
+        "spares": [
+          "Kiln Tires",
+          "Riding Rings",
+          "Support Rollers",
+          "Thrust Rollers",
+          "Kiln Shell",
+          "Cooler Plates",
+          "Cooler Grates",
+          "Cooler Support Rollers",
+          "Vertical Mill Rollers",
+          "Vertical Mill Tables",
+          "Vertical Mill Liners",
+          "Roller Press Components",
+          "Grinding Media",
+          "Cement Mill Components",
+          "Separator Parts",
+          "Fan Components",
+          "Valve Components",
+          "Conveyor Components",
+          "Drive Components",
+          "Gearbox Spares"
+        ]
+      },
+      "power-plant": {
+        "title": "Power Plant Industry",
+        "subtitle": "Driving Progress with Powerful Solutions",
+        "heading": "Power Plant",
+        "description": [
+            "AB Enterprise is a trusted partner in the power plant sector, providing essential components, maintenance support, and innovative solutions that ensure efficient and uninterrupted energy generation. From thermal and hydro to renewable energy plants, we cater to diverse energy systems with high-performance spare parts and technical expertise. Our commitment is to help power plants operate safely, sustainably, and at peak performance—fueling industries, cities, and communities with reliable energy."
+        ],
+        "features": [
+          "VERTICAL MILL",
+          "PRE-HEATER",
+          "ROTARY KILN",
+          "CLINKER COOLER",
+          "PACKING PLANT",
+          "COAL AND CEMENT FEEDER"
+        ],
+        "image": "./images/power-plant-1.png",
+        "spareImage": "https://images.pexels.com/photos/1058142/pexels-photo-1058142.jpeg?auto=compress&cs=tinysrgb&w=600",
+        "spares": [
+          "Kiln Tires",
+          "Riding Rings",
+          "Support Rollers",
+          "Thrust Rollers",
+          "Kiln Shell",
+          "Cooler Plates",
+          "Cooler Grates",
+          "Cooler Support Rollers",
+          "Vertical Mill Rollers",
+          "Vertical Mill Tables",
+          "Vertical Mill Liners",
+          "Roller Press Components",
+          "Grinding Media",
+          "Cement Mill Components",
+          "Separator Parts",
+          "Fan Components",
+          "Valve Components",
+          "Conveyor Components",
+          "Drive Components",
+          "Gearbox Spares"
+        ]
+      },
+      "gypsum-industry": {
+        "title": "Gypsum Industry",
+        "subtitle": "Shaping Structures with Strength and Precision",
+        "heading": "Gypsum Industry",
+        "description": [
+            "At AB Enterprise, we are dedicated to supporting the gypsum industry with reliable sourcing, supply, and solutions that meet the evolving needs of modern construction. Gypsum plays a vital role in producing high-quality building materials such as plaster, drywall, and cement additives. With a focus on quality, efficiency, and sustainability, we help deliver materials that ensure strength, fire resistance, and smooth finishes across residential, commercial, and industrial projects."
+        ],
+        "features": [
+          "CONVEYER BELTS AND ROLLERS",
+          "CHAIN LINKS & SPROCKETS",
+          "GEARBOXES & COUPLINGS",
+          "ROTARY KILN PARTS (seals, tires, gears)",
+          "CRUSHERS & GRINDER COMPONENTS (hammers, liners, jaws)",
+          "HYDRAULIC CYLINDERS & SEALS",
+          "AIRLOCK ROTARY VALVES"
+        ],
+        "image": "./images/gypsum-industry-1.png",
+        "spareImage": "https://images.pexels.com/photos/31671089/pexels-photo-31671089/free-photo-of-high-risk-building-exterior-work-in-brazil.jpeg?auto=compress&cs=tinysrgb&w=600",
+        "spares": [
+          "Kiln Tires",
+          "Riding Rings",
+          "Support Rollers",
+          "Thrust Rollers",
+          "Kiln Shell",
+          "Cooler Plates",
+          "Cooler Grates",
+          "Cooler Support Rollers",
+          "Vertical Mill Rollers",
+          "Vertical Mill Tables",
+          "Vertical Mill Liners",
+          "Roller Press Components",
+          "Grinding Media",
+          "Cement Mill Components",
+          "Separator Parts",
+          "Fan Components",
+          "Valve Components",
+          "Conveyor Components",
+          "Drive Components",
+          "Gearbox Spares"
+        ]
+      },
+      "oil-and-gas-industry": {
+        "title": "Oil & Gas Industry",
+        "subtitle": "Reliable Energy for a Sustainable Tomorrow",
+        "heading": "Oil & Gas Industry",
+        "description": [
+            "We can handle every aspect of oil & gas industry, from all types of pipes, valves to heat transfer, gas processing, and drilling.We also assist customers with electrical instrumentation and both static and rotating equipment. We have been serving oil & gas industry for upstream and downstream products from a long time, and we have always been able to maintain the highest standards when it comes to the quality of our service and customer satisfaction.",
+
+            "With extensive contacts throughout the world with renowned and approved manufacturers we can supply all the materials or equipment.",
+
+            "We provide highest quality materials and machinery, to ensure that our customers around the globe are happy and able to reach their desired goals.",
+
+            "There is no point in providing an excellent service if it cannot be implemented in time, we are top performers when it comes to delivery times. We understand the importance of deadlines and we will work diligently to meet them every time."
+        ],
+        "features": [
+          "GATE VALVES",
+          "BALL VALVES",
+          "SAFETY VALVES",
+          "PRESSURE CONTROL VALVES",
+          "MANIFOLDS",
+          "SCREW PUMPS",
+          "SUCTION PUMPS"
+        ],
+        "image": "https://images.pexels.com/photos/15978384/pexels-photo-15978384/free-photo-of-oil-train-carriages-near-petrol-refinery-in-trzebinia-poland.jpeg?auto=compress&cs=tinysrgb&w=600",
+        "spareImage": "https://images.pexels.com/photos/11142768/pexels-photo-11142768.jpeg?auto=compress&cs=tinysrgb&w=600",
+        "spares": [
+          "Kiln Tires",
+          "Riding Rings",
+          "Support Rollers",
+          "Thrust Rollers",
+          "Kiln Shell",
+          "Cooler Plates",
+          "Cooler Grates",
+          "Cooler Support Rollers",
+          "Vertical Mill Rollers",
+          "Vertical Mill Tables",
+          "Vertical Mill Liners",
+          "Roller Press Components",
+          "Grinding Media",
+          "Cement Mill Components",
+          "Separator Parts",
+          "Fan Components",
+          "Valve Components",
+          "Conveyor Components",
+          "Drive Components",
+          "Gearbox Spares"
+        ]
+      }
+      
+    }
+  }
